@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: url(../assets/img/abstract-blue-rings-background.jpg) no-repeat
+    center center fixed;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  padding: 2em;
+}
+.nav-item {
+  margin-left: 75px;
+  background-color: rgba(240, 248, 255, 0.486);
+  border-radius: 25%;
+}
+.nav-link {
+  color: rgba(0, 0, 0, 0.623);
+}
+.form-inline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* MAIN */
+
+main {
+  width: 100%;
+  height: auto;
+}
+.date {
+  display: flex;
+  padding: 5%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 7%;
+  border-radius: 10%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.label-date {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: white;
+  align-self: center;
+}
+
+.input-date {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+.getdate {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.getdate:hover {
+  background-color: #0069d9;
+}
+.collapse-btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  position: relative;
+}
+
+.btn-primary {
+  background-color: rgba(0, 128, 0, 0.829);
+}
+.collapse.open {
+  max-height: 50vh;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+}
